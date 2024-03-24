@@ -1,0 +1,216 @@
+.container {
+ margin: auto;
+ padding: 0;
+ width: 450px;
+ background-color: black;
+ height: 600px auto ;
+ text-align: center;
+ border-radius: 20px;
+}
+
+.heading_div{
+ padding: 10px;
+}
+
+.heading{
+ color: aliceblue;
+ text-decoration:underline;
+}
+.todo_gif{
+background-color: #fff;
+border-radius: 50px;
+}
+
+#taskInput {
+ width: 60%;
+ padding: 8px;
+ margin-bottom: 10px;
+ border: 1px solid blue;
+ border-radius: 5px;
+}
+#taskInput:hover {
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#taskInput::placeholder{
+ font-size: 15px;
+ font-weight: 600;
+}
+.Add_btn {
+ margin: 5px;
+ padding: 8px 15px;
+ background-color: #4CAF50;
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+
+}
+button:hover {
+ background-color: #45a049;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.Romove_btn{
+ padding: 8px 15px;
+ background-color: #ef3619;
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+.Romove_btn:hover{
+ background-color: #f52303;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+ .item-div{
+ margin: 5px;
+ margin-left: 15px;
+ margin-right: 15px;
+ padding-left: 10px;
+ height: auto;
+ border-radius: 5px;
+padding: 5px;
+} 
+
+ol {
+ margin: 5px;
+ margin-left: 15px;
+ margin-right: 15px;
+ padding-left: 10px;
+ height: auto;
+} 
+
+li{
+ position: static;
+ font-size: 20px;
+ color: #fcf7f7;
+ margin: 5px;
+ margin-left: 10px;
+ margin-right: 10px;
+ /* padding-right: 150px; */
+ height:80px ;
+ background-color: #45a049;
+ border-radius: 5px;
+ padding-bottom: 5px;
+}
+li:hover{
+ box-shadow: rgba(240, 237, 237, 0.35) 0px 5px 15px;
+ transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+ background-color: #4CAF50;
+}
+
+.massage{
+ height: 50px;
+ margin: 10px ;
+ padding: 10px;
+}
+
+.alert_message{
+ height: 200px;
+ text-align: center;
+ color: rgb(250, 36, 8);
+ margin: 20px ;
+ padding: 20px;
+ font-weight: 700;
+ font-size: 30px;
+ text-decoration:underline;
+}
+
+.EmptyMessage{
+ color: #f52303;
+}
+.AddedMessage{
+ color: #45a049;
+}
+
+.success-message {
+ color: green;
+}
+
+.error-message {
+ color: red;
+}
+
+/* .edit_div{
+ /* margin-right: 340px; */
+ /* background-color: #191919;
+ border-radius: 5px;
+ margin-left: 5px;
+ width: 50px;
+ text-align:center;
+}
+.edit_icon{
+ font-size: 2rem;
+ padding: 5px;
+} */
+
+ .delete_div{
+/* margin-left: 340px;
+background-color: #191919;
+border-radius: 5px;
+margin-right: 5px;
+margin-bottom: 50px; */
+/* width: 50px; */
+
+}
+/* .delete_icon{
+  font-size: 2rem;
+  padding: 5px;
+}  */ 
+
+/* .container {
+ /* display: flex;*/
+ /* justify-content: space-between; 
+}  */
+
+/* .edit_div, .delete_div {
+ background-color: #191919;
+ border-radius: 5px;
+ width: 50px;
+ text-align: center;
+}
+
+.edit_icon, .delete_icon {
+ font-size: 2rem;
+ padding: 5px;
+}
+ */
+
+ .list_div{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+ }
+
+
+ .edit_icon{
+  font-size: 25px;
+  border: 3px solid black;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #04940b;
+  color:black;
+ }
+ .delete_icon{
+  font-size: 25px;
+  border: 3px solid black;
+  padding: 2px;
+  border-radius: 5px;
+  margin-left: 270px;
+  color:black;
+  background-color: #f52303;
+ }
+
+ .edit_icon:hover{
+  color: #04940b;
+  background-color:#5e150a;
+ }
+ .delete_icon:hover{
+  color: #fb0505;
+  background-color:#5e150a;
+ }
+ 
